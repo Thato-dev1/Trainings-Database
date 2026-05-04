@@ -1,0 +1,161 @@
+body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    background-color: #f4f7f9; 
+    margin: 0; 
+    color: #333; 
+}
+
+.navbar {
+    background-color: #00095B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-content { 
+    display: flex; 
+    align-items: center; 
+}
+.logo { 
+    height: 40px; 
+    margin-right: 15px; 
+}
+.site-name { 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.nav-right { 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+.btn-logout { 
+    background: transparent;
+     border: 1px solid white; 
+     color: white; 
+    padding: 5px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+.admin-profile { 
+    color: white; 
+    display: flex; 
+    align-items: center;
+    gap: 10px; 
+    font-size: 14px; 
+}
+.profile-icon { 
+    width: 35px;
+    height: 35px; 
+    background: #0021b1; 
+    border-radius: 50%; 
+    border: 1px solid rgba(255,255,255,0.3); 
+}
+
+/* Dashboard Layout */
+.dashboard-container { 
+    max-width: 1100px; 
+    margin: 60px auto; 
+    padding: 0 20px; 
+    text-align: center; 
+}
+.dashboard-header h1 { 
+    color: #00095B; 
+    font-size: 32px; 
+    margin-bottom: 5px; 
+}
+.subtitle { 
+    color: #666; 
+    font-size: 16px; 
+    margin-bottom: 50px; 
+}
+
+/* Menu Grid */
+.menu-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 30px; 
+}
+
+.menu-card { 
+    background: white; 
+    padding: 40px 30px; 
+    border-radius: 12px; 
+    text-decoration: none; 
+    color: inherit;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    position: relative;
+}
+
+.menu-card:hover { 
+    transform: translateY(-10px); 
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1); 
+    border-bottom: 4px solid #00095B; 
+}
+
+
+.card-icon { 
+    font-size: 40px; 
+    margin-bottom: 20px; 
+}
+.menu-card h3 { 
+    color: #00095B; 
+    margin: 10px 0; 
+    font-size: 20px; 
+}
+.menu-card p { 
+    color: #777; 
+    font-size: 14px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+}
+
+.action-link { 
+    font-weight: bold; 
+    color: #00095B; 
+    font-size: 14px; 
+    text-transform: uppercase; 
+}
+
+.notification-badge { 
+    position: absolute; 
+    top: 20px; right: 20px; 
+    background: #d9534f; 
+    color: white; 
+    font-size: 11px; 
+    font-weight: bold; 
+    padding: 4px 10px; 
+    border-radius: 20px; 
+}
+
+.btn-action {
+    background-color: #00095B;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 85%;
+}
+.btn-action:hover { 
+    background-color: #000740; 
+}
+
+.dashboard-footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.dashboard-footer a { color: #00095B; text-decoration: none; }
+

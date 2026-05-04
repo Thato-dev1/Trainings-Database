@@ -1,0 +1,85 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contractor Profile - {{details.first_name}} {{details.last_name}}</title>
+    <link rel="stylesheet" href="{% static 'css/cont_details.css'%}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford Logo" class="logo">
+            <span class="site-name">Easy Blue | Admin Console</span>
+        </div>
+        <div class="nav-right">
+            <span class="user-id">ID: TMOLIKO@ford.com</span>
+            <button class="btn-logout">Sign Out</button>
+        </div>
+    </nav>
+    <p class="subtitle" style="text-align: center; margin-top: 40px;">Admin Management Portal</p>
+    <div class="profile-container" >
+        <header class="profile-header">
+            <div class="identity-card">
+                <h1>{{details.first_name}} {{details.last_name}}</h1>
+                <div class="badge-row">
+                    <span class="badge id-badge">ID Number: {{details.id_number}}</span>
+                    <span class="badge type-badge">Company Name: {{details.company_name}}</span>
+                </div>
+            </div>
+            <a href="{% url 'view_employee_training'%}" class="back-btn"><i class="bi bi-arrow-left"></i>Back to contractor list </a>
+        </header>
+
+        <section class="training-section">
+            <h2>Training History</h2>
+            
+            {% if details.contractor_trainings.all%}
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Module</th>
+                                <th>Date Range</th>
+                                <th>Hours</th>
+                                <th>Trainer Details</th>
+                                <th>Captured By</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for module in details.contractor_trainings.all%}
+                            <tr>
+                                <td class="module-name">
+                                    <strong>{{module.get_training_module_display}}</strong>
+                                    <small>{{module.course_description}}</small>
+                                </td>
+                                <td>{{module.start_date}} to {{module.end_date}}</td>
+                                <td>{{module.hours_of_training}} hrs</td>
+                                <td>
+                                    {{module.trainer_name}} {{module.trainer_surname}}<br>
+                                    <small>Company ID: {{module.trainer_company_ID}}</small>
+                                </td>
+                                <td><span class="user-tag">{{module.captured_by}}</span></td>
+                            </tr>
+                           {% endfor %}
+                        </tbody>
+                    </table>
+                
+                </div>
+                {% else %}
+                <div class="empty-state">
+                    <p>I doubt you'll ever get here but yeah, this person has no training record. PS: Mr Moliko You need to stop writing nonsense in your pages.</p>
+                </div>
+                {% endif%}
+        </section>
+    </div>
+    <footer class="dashboard-footer">
+        <p>AMIC Online Booking System | <a href="#">www.fordeasyblue.com</a></p>
+        <p>Product of FMCSA and Thato Moliko</p>
+    </footer>
+</body>
+</html> 
+
+<!-- got the idea of using an if statement from a video. The if statement is for future purposes. If we ever need to add employees without training records then the if statement will == False and the else will run  (basically check if the person has a rocord or not.) -->

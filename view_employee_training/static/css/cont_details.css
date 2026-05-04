@@ -1,0 +1,151 @@
+:root {
+    --ford-blue: #003478;
+    --light-grey: #f4f7f9;
+    --border-color: #d1d9e0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+
+}
+
+.profile-container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--ford-blue);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.identity-card h1 {
+    margin: 0;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.badge-row {
+    margin-top: 10px;
+}
+
+.badge {
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.id-badge { background: #e2e8f0; color: #4a5568; }
+.type-badge { background: var(--ford-blue); color: white; }
+
+.back-btn {
+    text-decoration: none;
+    color: var(--ford-blue);
+    font-weight: 600;
+}
+
+
+.training-section h2 {
+    color: var(--ford-blue);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background: #f8fafc;
+    padding: 12px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+td {
+    padding: 15px 12px;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: top;
+}
+
+.module-name strong {
+    display: block;
+    color: #2d3748;
+}
+
+.module-name small {
+    color: #718096;
+}
+
+.user-tag {
+    background: #edf2f7;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.navbar {
+    background-color: #00095B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-content { 
+    display: flex; 
+    align-items: center; 
+}
+.logo { 
+    height: 40px; 
+    margin-right: 15px; 
+}
+.site-name { 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.nav-right { 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+.btn-logout { 
+    background: transparent;
+     border: 1px solid white; 
+     color: white; 
+    padding: 5px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+
+.dashboard-footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.dashboard-footer a { color: #00095B; 
+    text-decoration: none; 
+}
+
+.subtitle { 
+    font-size: 14px; 
+    color: #666; 
+    margin-bottom: 10px; 
+}  

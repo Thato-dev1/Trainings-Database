@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thato Moliko">
+    <title>Easy Blue</title>
+    <link rel="stylesheet" href="{% static 'css/register.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford Logo" class="logo">
+            <span class="site-name">Easy Blue</span>
+        </div>
+    </nav>
+
+<div class="signup-container">
+    <p class="subtitle">Training Database</p>
+    <div class="signup-card">
+        <h2>Create Your Easy Blue Account</h2>
+        
+        <form action="{% url 'register'%}" method="POST">
+            {%csrf_token %}
+
+            {{form}}
+            <!-- <label for="fname">Please enter your first name:</label><br>
+            <input type="text" placeholder="Name" required  id="fname" name="FirstName">
+            <label for="lname">Please enter your last name:</label><br>
+            <input type="text" placeholder="Surname" required  id="lname" name="LastName">
+            <label for="Company_ID">Please enter your Company ID:</label>
+            <input type="text" placeholder="CO.ID" id="Company_ID" maxlength="8" required name="CO_ID">
+            <label for="Company_CDSID">Please enter your Company CDSID:</label>
+            <input type="text" placeholder="CDSID" maxlength="20" id="Company_CDSID" required name="CDSID">
+            <label for="pword">Please enter your password:</label>
+            <input type="password" placeholder="Password" required id="pword" minlength="7" maxlength="12" name="Password">
+            <label for="pword2">Please re-enter your password:</label>
+            <input type="password" placeholder="Password" required id="pword2" minlength="7" maxlength="12" name="Password2">
+            <label for="cellnumber">Please enter your cellphone number:</label>
+            <input type="tel" placeholder="Cellphone number" required id="cellnumber" minlength="10" maxlength="10" name="phonenumber"> -->
+            
+
+            
+            <button type="submit" class="btn-submit">Sign Up</button>
+        </form>
+    </div>
+</div>
+<footer class="dashboard-footer">
+    <p>AMIC Online Booking System | <a href="landing_page.html">www.fordeasyblue.com</a></p>
+    <p>Product of FMCSA and Thato Moliko</p>
+</footer>
+</body>
+</html>

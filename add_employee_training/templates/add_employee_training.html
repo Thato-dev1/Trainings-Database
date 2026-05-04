@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thato Moliko">
+    <title>Easy Blue</title>
+    <link rel="stylesheet" href="{% static 'css/add_employee_training.css' %}">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford Logo" class="logo">
+            <span class="site-name">Easy Blue | Admin Console</span>
+        </div>
+        <div class="nav-right">
+            <span class="user-id">{{user}}</span>
+            <a href="{%url 'sign_out'%}"><button class="btn-logout">Sign Out</button></a>
+        </div>
+    </nav>
+
+    <div class="booking-container">
+        <p class="subtitle">Admin Management Portal</p>
+        <div class="booking-card">
+            <h2>Add Employee Training</h2>
+            <p class="instruction-text">Please select the personnel type and a training module before entering the registration details.</p>
+
+            <div class="tabs">
+                <input type="radio" name="personnel-tab" id="employee-tab" checked>
+                <label for="employee-tab" class="tab-label">Employee</label>
+
+                <input type="radio" name="personnel-tab" id="contractor-tab">
+                <label for="contractor-tab" class="tab-label">Contractor</label>
+
+                <form action="{% url 'add_employee' %}" method="POST" class="tab-content" id="employee-form">
+                    {%csrf_token%}
+                    <div class="selection-group">
+                    <label class="label-text">Select Training Module: <small>(press ctrl/command to select multiple modules)</small> </label>
+                    <select name="training_module" multiple required>
+                        <option value="" disabled>- Choose a Training</option>
+                        <option value="0">Induction Training</option>
+                        <option value="1">5 S Workshop</option>
+                        <option value="2">FPS Training</option>
+                        <option value="3">5 Whys Training</option>
+                        <option value="4">Waste Elimination</option>
+                        <option value="5">Kaizen Training</option>
+                        <option value="6">Metal Finish Training</option>
+                        <option value="7">SPII Training</option>
+                        <option value="8">Leadership Training</option>
+                        <option value="9">SPC Charts Training</option>
+                        <option value="10">PMHV & Safety Training</option>
+                    </select>
+                    </div>
+                    <div class="section-title">Employee Details</div>
+                    <div class="form-grid">
+                        <input type="text" placeholder="Company ID" required maxlength="7" minlength="7" name="company_ID">
+                        <input type="text" placeholder="Name" required maxlength="50" name="first_name">
+                        <input type="text" placeholder="Surname" required maxlength="50" name="last_name" >
+                        <select required name="employee_type">
+                            <option value="" selected>Choose Employee Type</option>
+                            <option value="0">Hourly</option>
+                            <option value="1">Salaried</option>
+                        </select>
+                        <div class="dates">
+                        <label for="sdate">Start Date:</label> 
+                        <input type="date" id="sdate" required name="start_date">
+                        <label for="edate">End Date:</label>
+                        <input type="date" id="edate" required name="end_date">
+                        </div>
+                        <input type="text"  placeholder="Course Description" maxlength="150" name="course_description">
+                        <input type="text" placeholder="Trainer Company ID" maxlength="7" minlength="7" required name="trainer_company_ID">
+                        <input type="text" placeholder="Trainer Name" required maxlength="50" name="trainer_name">
+                        <input type="text" placeholder="Trainer Surname" required maxlength="50" name="trainer_surname">
+                        <input type="number" placeholder="Hours of Training" required name="hours_of_training">
+                        <input type="text" placeholder="Captured By" required maxlength="50" name="captured_by">
+                    </div>
+                    <button type="submit" class="btn-submit">Save to Database</button>
+                </form>
+
+                <form action="{% url 'add_contractor' %}" method="POST" class="tab-content" id="contractor-form">
+                    {%csrf_token%}
+                    <div class="selection-group">
+                    <label class="label-text">Select Training Module: <small>(press ctrl/command to select multiple modules)</small></label>
+                    <select name="training_module" multiple required>
+                        <option value="" disabled>Choose a Training</option>
+                        <option value="0">Induction Training</option>
+                        <option value="1">5 S Workshop</option>
+                        <option value="2">FPS Training</option>
+                        <option value="3">5 Whys Training</option>
+                        <option value="4">Waste Elimination</option>
+                        <option value="5">Kaizen Training</option>
+                        <option value="6">Metal Finish Training</option>
+                        <option value="7">SPII Training</option>
+                        <option value="8">Leadership Training</option>
+                        <option value="9">SPC Charts Training</option>
+                        <option value="10">PMHV & Safety Training</option>
+                    </select>
+                </div>
+                    <div class="section-title">Contractor Details</div>
+                    <div class="form-grid">
+                        <input type="text" placeholder="ID Number" required maxlength="13" minlength="13" name="id_number">
+                        <input type="text" placeholder="Company Name" required maxlength="50" name="company_name">
+                        <input type="text" placeholder="Name" required maxlength="50" name="first_name">
+                        <input type="text" placeholder="Surname" required maxlength="50" name="last_name">
+                        <input type="text" placeholder="Course Description" maxlength="150" name="course_description">
+                        <div class="dates">
+                        <label for="sdate">Start Date:</label> 
+                        <input type="date" id="sdate" required name="start_date">
+                        <label for="edate">End Date:</label>
+                        <input type="date" id="edate" required name="end_date">
+                        </div>
+                        <input type="text" placeholder="Trainer Company ID" required maxlength="7" minlength="7" name="trainer_company_ID">
+                        <input type="text" placeholder="Trainer Name" required maxlength="50" name="trainer_name">
+                        <input type="text" placeholder="Trainer Surname" required maxlength="50" name="trainer_surname">
+                        <input type="number" placeholder="Hours of Training" required name="hours_of_training">
+                        <input type="text" placeholder="Captured By" required maxlength="50" required name="captured_by">
+                    </div>
+                    <button type="submit" class="btn-submit">Save to Database</button>
+                </form>
+            </div>
+            <a href="{% url 'view_employee_training' %}"><button class="btn-submit">View Training Records</button></a>
+        </div>
+    </div>
+    <footer class="dashboard-footer">
+        <p>AMIC Online Booking System | <a href="#">www.fordeasyblue.com</a></p>
+        <p>Product of FMCSA and Thato Moliko</p>
+    </footer>
+</body>
+</html>
+</body>
+</html>

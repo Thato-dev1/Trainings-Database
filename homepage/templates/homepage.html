@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thato Moliko">
+    <title>Easy Blue</title>
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford Logo" class="logo">
+            <span class="site-name">Easy Blue | Admin Console</span>
+        </div>
+        <div class="nav-right">
+            <!-- # ID: TMOLIKO@ford.com -->
+            <span class="user-id">{{user}}</span> 
+            <a href="{% url 'sign_out' %}"><button class="btn-logout">Sign Out</button></a>
+        </div>
+    </nav>
+
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <h1>Trainings Database</h1>
+            <p class="subtitle">Admin Management Portal</p>
+        </header>
+
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="card-icon">➕</div>
+                <h3>Add Employee Training</h3>
+                <p>Add new employee and contractor training records</p>
+                <a href="{% url 'add_employee' %}" style="width: 100%;"><button class="btn-action">Add Records</button></a>
+            </div>
+
+            <div class="menu-card">
+                <div class="card-icon">🔍</div>
+                <h3>View Employee Training</h3>
+                <p>Search and find exiting employee and contractor training records</p>
+                <a href="{% url 'view_employee_training'%}" style="width: 100%;"><button class="btn-action">View Records</button></a>
+            </div>
+
+            <div class="menu-card">
+                <div class="card-icon">👤</div>
+                <h3>Admin Access Requests</h3>
+                <p>Approve or deny new sign-ups </p>
+                <div class="notification-badge">3 Pending</div>
+                <a href="#" style="width: 100%;"><button class="btn-action">Access Requests</button></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="dashboard-footer">
+        <p>AMIC Online Booking System | <a href="#">www.fordeasyblue.com</a></p>
+        <p>Product of FMCSA and Thato Moliko</p>
+    </footer>
+</body>
+</html>
