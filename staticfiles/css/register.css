@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    color: #333;
+}
+
+.navbar {
+    background-color: #00095B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-content { 
+    display: flex; 
+    align-items: center; 
+}
+.logo { 
+    height: 40px; 
+    margin-right: 15px; 
+}
+.site-name { 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.nav-right { 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+.btn-logout { 
+    background: transparent;
+     border: 1px solid white; 
+     color: white; 
+    padding: 5px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Card Style */
+.signup-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 450px;
+    /* text-align: center; */
+}
+
+h2 {
+    color: #00095B;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* Form Elements */
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #d1d9e0;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.role-label {
+    margin: 20px 0 10px;
+    font-weight: 600;
+    color: #444;
+}
+
+.role-selection {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.btn-role {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #00095B;
+    background: white;
+    color: #00095B;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-role.active {
+    background: #00095B;
+    color: white;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 15px;
+    background-color: #00095B;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+.footer-links a {
+    color: #00095B;
+    text-decoration: none;
+    font-size: 13px;
+}
+.dashboard-footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.dashboard-footer a { color: #00095B; text-decoration: none; }
+
+h2{
+    text-align: center;
+}
+
+.role-label{
+    text-align: center;
+}
