@@ -6,8 +6,8 @@ from django.db.models import Q
 
 def view_employee_training(request):
 
-    members = Employee.objects.all()
-    cont_members = Contractor.objects.all()
+    members = Employee.objects.all().order_by('-updated_at')
+    cont_members = Contractor.objects.all().order_by('-updated_at')
     context = {
         'members': members,
         'cont_members': cont_members,
