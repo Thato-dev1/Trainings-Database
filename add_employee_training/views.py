@@ -1,12 +1,13 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from database_models.models import Employee, Contractor, TrainingModule
+from django.contrib.auth.decorators import login_required
 
 
 
 # def add_employee_training(request):
 #     return render(request, 'add_employee_training.html')
-    
+@login_required   
 def add_employee(request):
     if request.method == 'POST':
         company_ID = request.POST.get('company_ID')
@@ -36,13 +37,13 @@ def add_employee(request):
                 trainer_name = request.POST.get('trainer_name'),
                 trainer_surname = request.POST.get('trainer_surname'),
                 hours_of_training = request.POST.get('hours_of_training'),
-                captured_by = request.POST.get('captured_by'),
+                captured_by = request.user
                 )
         return redirect('add_employee')
     else:
         return render(request, 'add_employee_training.html')
 
-
+@login_required
 def add_contractor(request):
     if request.method == 'POST':
         id_number = request.POST.get('id_number')
@@ -72,7 +73,7 @@ def add_contractor(request):
                 trainer_name = request.POST.get('trainer_name'),
                 trainer_surname = request.POST.get('trainer_surname'),
                 hours_of_training = request.POST.get('hours_of_training'),
-                captured_by = request.POST.get('captured_by'),
+                captured_by = request.user
             )
         return redirect('add_contractor')
     else:

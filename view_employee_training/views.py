@@ -2,8 +2,9 @@ from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from database_models.models import Employee, Contractor
 from django.db.models import Q
+from django.contrib.auth.decorators import login_required
 
-
+@login_required
 def view_employee_training(request):
 
     members = Employee.objects.all().order_by('-updated_at')
@@ -15,7 +16,7 @@ def view_employee_training(request):
     return render(request, 'view_employee_training.html', context)
 
 
-
+@login_required
 def emp_details(request, emp):
 
     details = get_object_or_404(Employee, pk=emp)
@@ -25,7 +26,7 @@ def emp_details(request, emp):
     }
 
     return render(request, 'emp_details.html', context)
-
+@login_required
 def cont_details(request, cont):
     
     details = get_object_or_404(Contractor,pk=cont)
@@ -34,7 +35,7 @@ def cont_details(request, cont):
         'details': details
     }
     return render(request, 'cont_details.html', context)
-
+@login_required
 def search(request):
     if request.method == 'GET':
         item = request.GET.get('keyword')
@@ -44,7 +45,7 @@ def search(request):
             'item': item,
         }
         return render(request, 'searchpage.html', context)
-    
+@login_required 
 def cont_search(request):
     if request.method == 'GET':
         cont_item = request.GET.get('cont_keyword')

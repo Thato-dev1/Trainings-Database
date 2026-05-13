@@ -1,4 +1,5 @@
 from django.db import models
+from registrations.models import User
 
 class Employee(models.Model):
     
@@ -52,7 +53,7 @@ class TrainingModule(models.Model):
     trainer_name = models.CharField(max_length= 50)
     trainer_surname = models.CharField(max_length= 50)
     hours_of_training = models.IntegerField()
-    captured_by = models.CharField(max_length= 50)
+    captured_by = models.ForeignKey(User, on_delete= models.CASCADE, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
     # let the User model be a foriegnkey of this model for the capture_by table feild
