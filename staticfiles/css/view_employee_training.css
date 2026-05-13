@@ -1,0 +1,156 @@
+body { 
+    font-family: 'Segoe UI', Arial, sans-serif; 
+    background-color: #f4f7f9; 
+    margin: 0; 
+}
+
+.navbar {
+    background-color: #00095B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-content { 
+    display: flex; 
+    align-items: center; 
+}
+.logo { 
+    height: 40px; 
+    margin-right: 15px; 
+}
+.site-name { 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+} 
+.nav-right { 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    gap: 20px;
+} 
+.btn-logout { 
+    background: transparent;
+    border: 1px solid white; 
+    color: white; 
+    padding: 5px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+} 
+.booking-container { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px 20px; 
+}
+.booking-card { 
+    background: white; 
+    padding: 40px; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+    width: 100%; max-width: 750px; 
+}
+h2 { 
+    color: #00095B; 
+    margin: 0; 
+}
+
+/* Tab Navigation Logic */
+.tabs input[type="radio"] { display: none; }
+.tab-label { 
+    display: inline-block; 
+    padding: 12px 25px; 
+    background: #eef2f5; 
+    cursor: pointer; 
+    border-radius: 6px 6px 0 0; 
+    margin-right: 5px; 
+    font-weight: bold; 
+    color: #555;
+    transition: 0.3s;
+}
+#view-employee:checked ~ label[for="view-employee"],
+#view-contractor:checked ~ label[for="view-contractor"] {
+    background: #00095B; 
+    color: white;
+}
+.tab-content { display: none; padding-top: 10px; }
+#view-employee:checked ~ #employee-search,
+#view-contractor:checked ~ #contractor-search { display: block; }
+
+/* Form Elements */
+.section-title { 
+    font-weight: bold; 
+    color: #00095B; 
+    margin: 25px 0 10px; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 5px; 
+}
+.form-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 10px; 
+}
+input { 
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #d1d9e0; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+}
+
+.btn-submit {
+    width: 100%; 
+    padding: 15px; 
+    background-color: #00095B; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    margin-top: 20px;
+}
+
+/* Results Table Styling */
+.results-container { 
+    margin-top: 40px; 
+}
+.results-table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 10px; 
+}
+.results-table th { 
+    background: #f8f9fa; 
+    color: #00095B; 
+    text-align: left; 
+    padding: 12px; 
+    border-bottom: 2px solid #00095B; 
+}
+.results-table td { 
+    padding: 12px; 
+    border-bottom: 1px solid #eee; 
+    font-size: 14px; }
+.no-data { 
+    text-align: center; 
+    color: #999; 
+    padding: 30px !important; 
+}
+.dashboard-footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+.dashboard-footer a { color: #00095B; 
+    text-decoration: none; 
+}
+
+.subtitle { 
+    font-size: 14px; 
+    color: #666; 
+    margin-bottom: 10px; 
+}

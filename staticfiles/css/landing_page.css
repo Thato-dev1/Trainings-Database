@@ -1,0 +1,119 @@
+body { 
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    
+} 
+/* Removed display:flex from body so navbar stays at top */
+.navbar {
+    background-color: #00095B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.nav-content { 
+    display: flex; 
+    align-items: center; 
+}
+.logo { 
+    height: 40px; 
+    margin-right: 15px; 
+}
+.site-name { 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.nav-right { 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+.btn-logout { 
+    background: transparent;
+     border: 1px solid white; 
+     color: white; 
+    padding: 5px 15px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.mainpage { 
+    /* text-align: center; */
+    width: 400px;
+    margin: 80px auto; 
+} /* Centered the card below the navbar */
+h1 { 
+    color: #003366;
+    margin-bottom: 5px; 
+}
+.card {
+
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn-first {
+    width: 100%;
+    padding: 12px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-secondary {
+    width: 100%;
+    padding: 12px;
+    background: white;
+    color: #003366;
+    border: 1px solid #003366;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.page-footer {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+    font-size: 12px;
+    
+}
+
+.page-footer a {
+    color: #00095B;
+    text-decoration: none;
+}
+.link-first:visited{
+    text-decoration: none;
+    color: #003366;
+    
+}
+
+h3{
+    text-align: center;
+}
+/* label{
+    align-items: flex-start;
+} */
+ p{
+    text-align: center;
+ }
+
+ .subtitle { 
+    font-size: 14px; 
+    color: #666; 
+    margin-bottom: 10px; 
+}

@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thato Moliko">
+    <title>Easy Blue</title>
+</head>
+<body style="margin: 0;">
+    <div >
+        <div style="display: flex; justify-content: center;">
+            <img src="{% static 'images/errorimage.png' %}" alt="image of person floating with a graduation hat - page not found image." width="30%">
+        </div>
+        <div style=" text-align: center; margin-bottom: 30px;">
+            <h1 style="font-size: 90px; color:#333333; margin-top: 10px;" >Page Not found</h1>
+            <h4 style="font-size: larger; font-weight: lighter; color:#333333;">Mmmm, it looks like we can't find the page you're looking for. Do you want to go to the sign-in page instead?</h4>
+            <br>
+            <a href="{% url 'sign_in' %}" style="font-size: 20px; color: rgb(76, 76, 235);">sign-in</a>
+        </div>
+    </div>
+
+    <footer style="margin-top: 150px; text-align: center;">
+        Illustration(s) from <a href="https://absurd.design/">absurd.design</a>
+    </footer>
+</body>
+</html>
