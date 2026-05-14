@@ -1,26 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Thato Moliko">
-    <title>Easy Blue</title>
-    <link rel="stylesheet" href="{% static 'css/add_employee_training.css' %}">
+{% extends 'base.html' %}
 
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <a href="{% url 'homepage' %}"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford Logo" class="logo"></a>
-            <span class="site-name">Easy Blue | Admin Console</span>
-        </div>
-        <div class="nav-right">
-            <span class="user-id">{{user}}</span>
-            <a href="{%url 'sign_out'%}"><button class="btn-logout">Sign Out</button></a>
-        </div>
-    </nav>
-
+{% block content %}
     <div class="booking-container">
         <p class="subtitle">Admin Management Portal</p>
         <div class="booking-card">
@@ -123,11 +103,5 @@
             <a href="{% url 'view_employee_training' %}"><button class="btn-submit">View Training Records</button></a>
         </div>
     </div>
-    <footer class="dashboard-footer">
-        <p>AMIC Online Booking System | <a href="#">www.fordeasyblue.com</a></p>
-        <p>Product of FMCSA and Thato Moliko</p>
-    </footer>
-</body>
-</html>
-</body>
-</html>
+ 
+{% endblock content %}

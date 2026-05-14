@@ -1,20 +1,6 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Thato Moliko">
-    <title>Easy Blue</title>
-    <link rel="stylesheet" href="{% static 'css/register.css' %}">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg" alt="Ford Logo" class="logo">
-            <span class="site-name">Easy Blue</span>
-        </div>
-    </nav>
+{% extends 'base.html'%}
+
+{% block content%}
 
 <div class="signup-container">
     <p class="subtitle">Training Database</p>
@@ -46,9 +32,4 @@
         </form>
     </div>
 </div>
-<footer class="dashboard-footer">
-    <p>AMIC Online Booking System | <a href="landing_page.html">www.fordeasyblue.com</a></p>
-    <p>Product of FMCSA and Thato Moliko</p>
-</footer>
-</body>
-</html>
+{% endblock content%}
