@@ -48,7 +48,6 @@ class TrainingModule(models.Model):
     training_module = models.IntegerField(choices= training_module_tuple)
     start_date = models.DateField()
     end_date = models.DateField()
-    course_description = models.CharField(max_length= 150, blank= True)
     trainer_company_ID = models.CharField(max_length= 7)
     trainer_name = models.CharField(max_length= 50)
     trainer_surname = models.CharField(max_length= 50)

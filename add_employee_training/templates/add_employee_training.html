@@ -19,7 +19,7 @@
                     <div class="selection-group">
                     <label class="label-text">Select Training Module: <small>(press ctrl/command to select multiple modules)</small> </label>
                     <select name="training_module" multiple required>
-                        <option value="" disabled>- Choose a Training</option>
+                        <option value="" disabled>-- Choose a Training</option>
                         <option value="0">Induction Training</option>
                         <option value="1">5 S Workshop</option>
                         <option value="2">FPS Training</option>
@@ -46,10 +46,12 @@
                         <div class="dates">
                         <label for="sdate">Start Date:</label> 
                         <input type="date" id="sdate" required name="start_date">
+                        </div>
+                        <div class="dates">
                         <label for="edate">End Date:</label>
                         <input type="date" id="edate" required name="end_date">
                         </div>
-                        <input type="text"  placeholder="Course Description" maxlength="150" name="course_description">
+                        <!-- <input type="text"  placeholder="Course Description" maxlength="150" name="course_description"> -->
                         <input type="text" placeholder="Trainer Company ID" maxlength="7" minlength="7" required name="trainer_company_ID">
                         <input type="text" placeholder="Trainer Name" required maxlength="50" name="trainer_name">
                         <input type="text" placeholder="Trainer Surname" required maxlength="50" name="trainer_surname">
@@ -64,7 +66,7 @@
                     <div class="selection-group">
                     <label class="label-text">Select Training Module: <small>(press ctrl/command to select multiple modules)</small></label>
                     <select name="training_module" multiple required>
-                        <option value="" disabled>Choose a Training</option>
+                        <option value="" disabled>-- Choose a Training</option>
                         <option value="0">Induction Training</option>
                         <option value="1">5 S Workshop</option>
                         <option value="2">FPS Training</option>
@@ -84,10 +86,12 @@
                         <input type="text" placeholder="Company Name" required maxlength="50" name="company_name">
                         <input type="text" placeholder="Name" required maxlength="50" name="first_name">
                         <input type="text" placeholder="Surname" required maxlength="50" name="last_name">
-                        <input type="text" placeholder="Course Description" maxlength="150" name="course_description">
+                        <!-- <input type="text" placeholder="Course Description" maxlength="150" name="course_description"> -->
                         <div class="dates">
                         <label for="sdate">Start Date:</label> 
                         <input type="date" id="sdate" required name="start_date">
+                        </div>
+                        <div class="dates">
                         <label for="edate">End Date:</label>
                         <input type="date" id="edate" required name="end_date">
                         </div>
