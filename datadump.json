@@ -1,0 +1,3883 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "p5dlnqy6660vgttg2cwnmculy93h2y80",
+    "fields": {
+        "session_data": ".eJxVjEsKwjAUAO_y1hIS29SkS_eeIbxfTFVSaNqVeHcpdKHbmWHekHBbS9qaLmkSGMHB6ZcR8lPrLuSB9T4bnuu6TGT2xBy2mdss-roe7d-gYCswgkZWRj33kjkzOUErQ-fJuTwQevQScgxZpO9UMEcfLy76YH1EIbYBPl85ZjmN:1wMkAp:EeKO2P9AXNY5MgYALnE10gOa-uoHDpyt1NWQ-UtGLcw",
+        "expire_date": "2026-05-26T10:17:11.506Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yr6u1ihrn5zcky34mttj2z0dql79r7fu",
+    "fields": {
+        "session_data": ".eJxVjEsKwjAUAO_y1hIS29SkS_eeIbxfTFVSaNqVeHcpdKHbmWHekHBbS9qaLmkSGMHB6ZcR8lPrLuSB9T4bnuu6TGT2xBy2mdss-roe7d-gYCswgkZWRj33kjkzOUErQ-fJuTwQevQScgxZpO9UMEcfLy76YH1EIbYBPl85ZjmN:1wMPlD:grEmjl7zEPb6WAepYBIRhH3933Sx28qiT-qLH9y-nSE",
+        "expire_date": "2026-05-25T12:29:23.915Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zowe5o1c0a0ria3v3hgukiaov35k9ziv",
+    "fields": {
+        "session_data": ".eJxVjEsKwjAUAO_y1hIS29SkS_eeIbxfTFVSaNqVeHcpdKHbmWHekHBbS9qaLmkSGMHB6ZcR8lPrLuSB9T4bnuu6TGT2xBy2mdss-roe7d-gYCswgkZWRj33kjkzOUErQ-fJuTwQevQScgxZpO9UMEcfLy76YH1EIbYBPl85ZjmN:1wUNq2:B_aV3oZ8IlqFIM6htqcQRGgyrBElzdJKiI8C0JpHKKU",
+        "expire_date": "2026-06-16T12:03:18.190Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 14,
+    "fields": {
+        "company_ID": "0867788",
+        "first_name": "Bongi",
+        "last_name": "Aphelele",
+        "employee_type": 1,
+        "created_at": "2026-05-13T09:52:10.535Z",
+        "updated_at": "2026-05-13T09:52:10.535Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 15,
+    "fields": {
+        "company_ID": "0836485",
+        "first_name": "Lerato",
+        "last_name": "Mgani",
+        "employee_type": 0,
+        "created_at": "2026-05-13T09:54:29.652Z",
+        "updated_at": "2026-05-13T09:54:29.652Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 16,
+    "fields": {
+        "company_ID": "0971647",
+        "first_name": "Lindi",
+        "last_name": "Dlamini",
+        "employee_type": 1,
+        "created_at": "2026-05-13T10:16:56.933Z",
+        "updated_at": "2026-05-13T10:16:56.933Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 17,
+    "fields": {
+        "company_ID": "0981671",
+        "first_name": "Nhlanhla",
+        "last_name": "Sethole",
+        "employee_type": 1,
+        "created_at": "2026-05-13T10:25:40.464Z",
+        "updated_at": "2026-05-13T10:25:40.464Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 18,
+    "fields": {
+        "company_ID": "0971356",
+        "first_name": "Zanale",
+        "last_name": "Mthembu",
+        "employee_type": 0,
+        "created_at": "2026-05-13T15:15:54.702Z",
+        "updated_at": "2026-05-13T15:15:54.702Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 19,
+    "fields": {
+        "company_ID": "0857373",
+        "first_name": "Sipho",
+        "last_name": "Nthandane",
+        "employee_type": 1,
+        "created_at": "2026-05-13T15:21:53.006Z",
+        "updated_at": "2026-05-13T15:21:53.006Z"
+    }
+},
+{
+    "model": "database_models.employee",
+    "pk": 23,
+    "fields": {
+        "company_ID": "0863635",
+        "first_name": "Testing",
+        "last_name": "Testing",
+        "employee_type": 0,
+        "created_at": "2026-07-11T10:44:38.939Z",
+        "updated_at": "2026-07-11T10:44:38.939Z"
+    }
+},
+{
+    "model": "database_models.contractor",
+    "pk": 5,
+    "fields": {
+        "id_number": "9836363633443",
+        "company_name": "BMW",
+        "first_name": "Thando",
+        "last_name": "Dlamini",
+        "created_at": "2026-05-14T11:25:09.347Z",
+        "updated_at": "2026-05-14T11:25:09.347Z"
+    }
+},
+{
+    "model": "database_models.contractor",
+    "pk": 6,
+    "fields": {
+        "id_number": "7922112223230",
+        "company_name": "Daimler",
+        "first_name": "Karabo",
+        "last_name": "Selepe",
+        "created_at": "2026-05-24T06:39:28.044Z",
+        "updated_at": "2026-05-24T06:39:28.044Z"
+    }
+},
+{
+    "model": "database_models.contractor",
+    "pk": 7,
+    "fields": {
+        "id_number": "6947462230855",
+        "company_name": "Toyota",
+        "first_name": "Sipho",
+        "last_name": "Jabulani",
+        "created_at": "2026-05-24T06:41:18.421Z",
+        "updated_at": "2026-05-24T06:41:18.421Z"
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$vKOgtdCRKHU5C0eFSzz6FY$8Uutle6Hd51R7oOjs2a59CDjr/TcEC1/bNPLRhbwu2M=",
+        "last_login": "2026-07-11T12:11:19.972Z",
+        "is_superuser": true,
+        "username": "ThatoMoliko",
+        "first_name": "Thato",
+        "last_name": "Moliko",
+        "email": "thatomoliko01@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-04T06:41:37Z",
+        "company_ID": "0850330",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$ucQjqzbZG62kU3vwOympiU$vtmoYrJQpXl9ugxD7ffQPWRD9gKTrA5eiCUgtLv0f40=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "TMabena",
+        "first_name": "Thando",
+        "last_name": "Mabena",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-04T06:45:35.236Z",
+        "company_ID": "0857788",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$uvwVz2fyhc7PV8W20lantx$+TvLQzyd2OyqA3a+KCgiEKLpEM9oeVEYTLkkGk5/BVw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "TSthende",
+        "first_name": "Mandla",
+        "last_name": "Sthende",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-04T06:47:07.415Z",
+        "company_ID": "0891234",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$RvFN2DaO2CwEXWrFxoGbS3$DfpwH6dJ+J7u6YBh+Iunoc2CaRO9JDnns1bu7M03x0Q=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "BDlamini",
+        "first_name": "Bongi",
+        "last_name": "Dlamini",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-04T06:48:07.898Z",
+        "company_ID": "0980011",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$Y1amapUosQOuSRVb3deMT1$8uInlCbjpMLJVXwkv+nM+dgJnrcSU5XBk+Ej8Yuu0ak=",
+        "last_login": "2026-07-11T12:08:45.832Z",
+        "is_superuser": false,
+        "username": "TDlamini",
+        "first_name": "Themba",
+        "last_name": "Dlamini",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-05T06:06:28.166Z",
+        "company_ID": "0857638",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$GeZzvjj5rLwc3sG2hx7Lfn$fsnk27wJC0nnK2JVkfIkvijJeF6fToI+R42vO4G4E6w=",
+        "last_login": "2026-06-17T06:46:30.333Z",
+        "is_superuser": false,
+        "username": "MMoloi",
+        "first_name": "Mpho",
+        "last_name": "Moloi",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-05-05T06:36:30Z",
+        "company_ID": "0856767",
+        "groups": [],
+        "user_permissions": [
+            [
+                "add_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "change_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "delete_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "view_logentry",
+                "admin",
+                "logentry"
+            ],
+            [
+                "add_contractor",
+                "database_models",
+                "contractor"
+            ],
+            [
+                "change_contractor",
+                "database_models",
+                "contractor"
+            ],
+            [
+                "delete_contractor",
+                "database_models",
+                "contractor"
+            ],
+            [
+                "view_contractor",
+                "database_models",
+                "contractor"
+            ],
+            [
+                "add_employee",
+                "database_models",
+                "employee"
+            ],
+            [
+                "change_employee",
+                "database_models",
+                "employee"
+            ],
+            [
+                "delete_employee",
+                "database_models",
+                "employee"
+            ],
+            [
+                "view_employee",
+                "database_models",
+                "employee"
+            ],
+            [
+                "add_trainingmodule",
+                "database_models",
+                "trainingmodule"
+            ],
+            [
+                "change_trainingmodule",
+                "database_models",
+                "trainingmodule"
+            ],
+            [
+                "delete_trainingmodule",
+                "database_models",
+                "trainingmodule"
+            ],
+            [
+                "view_trainingmodule",
+                "database_models",
+                "trainingmodule"
+            ],
+            [
+                "add_loginhistory",
+                "login_history",
+                "loginhistory"
+            ],
+            [
+                "change_loginhistory",
+                "login_history",
+                "loginhistory"
+            ],
+            [
+                "delete_loginhistory",
+                "login_history",
+                "loginhistory"
+            ],
+            [
+                "view_loginhistory",
+                "login_history",
+                "loginhistory"
+            ],
+            [
+                "add_user",
+                "registrations",
+                "user"
+            ],
+            [
+                "change_user",
+                "registrations",
+                "user"
+            ],
+            [
+                "delete_user",
+                "registrations",
+                "user"
+            ],
+            [
+                "view_user",
+                "registrations",
+                "user"
+            ]
+        ]
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$M9mThdypbtpbPay9zIq1J6$/btozMC5DpEKxjJ6nVROPUd8KT+YZltvrwcQu3HPPws=",
+        "last_login": "2026-05-07T12:46:34.156Z",
+        "is_superuser": false,
+        "username": "bbrown",
+        "first_name": "Brian",
+        "last_name": "Brown",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-07T12:46:00.418Z",
+        "company_ID": "0818275",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$RplY0g2bzPUaSWO4gvx316$xw2lWG+OX/0ryN8ZcyDK9oeJZTwDGH7Jjldr4IIyHWI=",
+        "last_login": "2026-05-12T06:27:30.328Z",
+        "is_superuser": false,
+        "username": "BBafo",
+        "first_name": "Babalwa",
+        "last_name": "Bafo",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-05-12T06:26:49.157Z",
+        "company_ID": "0526347",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "registrations.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$EtsTmblRdOeHvvCK7iDpTz$V27VtXJS5OyswtdxgBSg8JR++cDeS/cGVgbUGNPxsDU=",
+        "last_login": "2026-07-10T10:42:14.164Z",
+        "is_superuser": false,
+        "username": "Testing",
+        "first_name": "Testing",
+        "last_name": "Testing",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-07-10T10:41:52.957Z",
+        "company_ID": "Testing",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-04T06:43:14.802Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-04T06:48:22.208Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-04T07:19:56.617Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-04T07:34:45.703Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-04T07:37:49.500Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T05:57:11.087Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:00:09.796Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:00:24.808Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 9,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:04:53.167Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 10,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:07:12.546Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 11,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:10:46.155Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 12,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:18:30.647Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 13,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:18:59.425Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 14,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:19:14.324Z",
+        "is_login": true,
+        "is_logged_in": true
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 15,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:33:21.216Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 16,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:36:49.304Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 17,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:37:13.502Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 18,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-05T06:41:02.468Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 19,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:36:50.850Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 20,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:39:58.787Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 21,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:40:21.486Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 22,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:42:27.582Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 23,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:54:55.624Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 24,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:57:13.321Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 25,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:58:01.852Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 26,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T05:59:20.017Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 27,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T06:00:11.724Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 28,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T06:11:18.965Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 29,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T06:21:08.171Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 30,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T06:21:21.107Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 31,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T08:45:54.935Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 32,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T09:30:31.187Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 33,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T09:54:58.067Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 34,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T09:55:37.542Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 35,
+    "fields": {
+        "user": [
+            "bbrown"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T12:46:34.140Z",
+        "is_login": true,
+        "is_logged_in": true
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 36,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T12:53:22.824Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 37,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-07T12:54:07.103Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 38,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-08T06:59:02.620Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 39,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-08T07:45:43.963Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 40,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-08T07:45:50.820Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 41,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-08T08:37:31.245Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 42,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-08T08:37:39.603Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 43,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-08T09:09:54.171Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 44,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:05:52.932Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 45,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:07:10.258Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 46,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:09:57.665Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 47,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:11:36.665Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 48,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:16:23.495Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 49,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:19:04.838Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 50,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:24:35.711Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 51,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:27:37.683Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 52,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:43:11.039Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 53,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:43:35.172Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 54,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:45:00.191Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 55,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:46:33.648Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 56,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:48:57.288Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 57,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T06:53:00.045Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 58,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T09:29:54.930Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 59,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T09:31:18.844Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 60,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T09:33:20.500Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 61,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T10:14:41.645Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 62,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T10:19:02.014Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 63,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T10:21:28.020Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 64,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T12:29:23.885Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 65,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T12:54:26.518Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 66,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T13:39:02.828Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 67,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T13:39:24.865Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 68,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T13:47:06.574Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 69,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-11T13:48:07.283Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 70,
+    "fields": {
+        "user": [
+            "BBafo"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-12T06:27:30.268Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 71,
+    "fields": {
+        "user": [
+            "BBafo"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-12T07:06:00.375Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 72,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-12T10:17:11.485Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 73,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T09:40:43.109Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 74,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T09:41:10.763Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 75,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T09:41:32.808Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 76,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T09:55:18.226Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 77,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T10:12:38.756Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 78,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T10:13:59.646Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 79,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T10:15:41.337Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 80,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T10:17:13.062Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 81,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T10:24:18.685Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 82,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T10:26:11.465Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 83,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T15:14:04.141Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 84,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T15:16:43.533Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 85,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T15:20:02.154Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 86,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T15:21:58.557Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 87,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T15:23:47.681Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 88,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "date_time": "2026-05-13T15:24:25.319Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 89,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T10:33:53.349Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 90,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T10:33:59.723Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 91,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T10:45:40.041Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 92,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T11:04:39.799Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 93,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T11:04:56.934Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 94,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T11:09:45.158Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 95,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T11:13:22.904Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 96,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T11:25:22.964Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 97,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T12:42:04.359Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 98,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T12:42:48.347Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 99,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T12:46:42.299Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 100,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T12:47:21.690Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 101,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T13:04:55.378Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 102,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-14T13:15:13.901Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 103,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-15T14:04:49.235Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 104,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-15T14:05:12.444Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 105,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-24T06:36:05.070Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 106,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-05-24T06:55:12.324Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 107,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-02T11:50:32.620Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 108,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-02T11:52:02.424Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 109,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-02T11:53:33.697Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 110,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-02T12:03:18.184Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 111,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-02T12:47:08.519Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 112,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-08T08:31:41.956Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 113,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T06:51:36.547Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 114,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T06:52:04.314Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 115,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T06:52:32.228Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 116,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T06:52:55.297Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 117,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T06:55:52.340Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 118,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T06:57:28.989Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 119,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T09:40:43.880Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 120,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T09:41:09.364Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 121,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+        "date_time": "2026-06-10T09:41:19.022Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 122,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-11T11:12:36.585Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 123,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-11T13:08:22.228Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 124,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T05:49:59.651Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 125,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T05:55:54.117Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 126,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T06:46:30.312Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 127,
+    "fields": {
+        "user": [
+            "MMoloi"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T06:48:41.045Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 128,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T06:51:12.293Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 129,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T06:51:29.787Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 130,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T06:52:58.795Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 131,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T06:53:11.125Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 132,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T07:01:11.460Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 133,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-06-17T07:23:47.800Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 134,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-10T10:28:13.684Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 135,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-10T10:30:14.394Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 138,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-10T10:39:16.443Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 139,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-10T10:41:10.921Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 140,
+    "fields": {
+        "user": [
+            "Testing"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-10T10:42:14.159Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 141,
+    "fields": {
+        "user": [
+            "Testing"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:29:29.511Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 142,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:29:52.547Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 143,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:30:47.647Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 144,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:40:39.635Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 145,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:41:08.769Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 146,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:41:44.887Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 147,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:42:03.461Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 148,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:47:19.983Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 149,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T10:47:36.396Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 150,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:52:49.665Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 151,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:53:07.187Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 152,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:53:15.435Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 153,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:54:34.019Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 154,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:54:43.028Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 155,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:55:13.115Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 156,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:57:49.123Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 157,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T11:58:54.248Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 158,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:00:12.798Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 159,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:00:32.469Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 160,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:01:34.920Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 161,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:01:44.405Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 162,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:02:18.949Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 163,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:04:21.420Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 164,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:04:46.037Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 165,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:05:53.961Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 166,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:05:58.972Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 167,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:06:46.232Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 168,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:08:26.533Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 169,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:08:45.830Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 170,
+    "fields": {
+        "user": [
+            "TDlamini"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:10:04.644Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 171,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:10:25.616Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 172,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:11:19.967Z",
+        "is_login": true,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "login_history.loginhistory",
+    "pk": 173,
+    "fields": {
+        "user": [
+            "ThatoMoliko"
+        ],
+        "ip": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "date_time": "2026-07-11T12:11:28.548Z",
+        "is_login": false,
+        "is_logged_in": false
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 37,
+    "fields": {
+        "employee": 14,
+        "contractor": null,
+        "training_module": 0,
+        "start_date": "2026-05-13",
+        "end_date": "2026-07-30",
+        "trainer_company_ID": "0867823",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 70,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T09:52:10.558Z",
+        "updated_at": "2026-05-13T09:52:10.558Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 38,
+    "fields": {
+        "employee": 14,
+        "contractor": null,
+        "training_module": 2,
+        "start_date": "2026-05-13",
+        "end_date": "2026-07-30",
+        "trainer_company_ID": "0867823",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 70,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T09:52:10.569Z",
+        "updated_at": "2026-05-13T09:52:10.569Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 39,
+    "fields": {
+        "employee": 14,
+        "contractor": null,
+        "training_module": 4,
+        "start_date": "2026-05-13",
+        "end_date": "2026-07-30",
+        "trainer_company_ID": "0867823",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 70,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T09:52:10.572Z",
+        "updated_at": "2026-05-13T09:52:10.572Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 40,
+    "fields": {
+        "employee": 14,
+        "contractor": null,
+        "training_module": 5,
+        "start_date": "2026-05-13",
+        "end_date": "2026-07-30",
+        "trainer_company_ID": "0867823",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 70,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T09:52:10.574Z",
+        "updated_at": "2026-05-13T09:52:10.574Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 41,
+    "fields": {
+        "employee": 15,
+        "contractor": null,
+        "training_module": 0,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-15",
+        "trainer_company_ID": "0865272",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 24,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T09:54:29.693Z",
+        "updated_at": "2026-05-13T09:54:29.693Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 42,
+    "fields": {
+        "employee": 15,
+        "contractor": null,
+        "training_module": 2,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-15",
+        "trainer_company_ID": "0865272",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 24,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T09:54:29.700Z",
+        "updated_at": "2026-05-13T09:54:29.700Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 43,
+    "fields": {
+        "employee": 16,
+        "contractor": null,
+        "training_module": 0,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-13",
+        "trainer_company_ID": "0857823",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Ratlala",
+        "hours_of_training": 8,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-13T10:16:56.941Z",
+        "updated_at": "2026-05-13T10:16:56.941Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 44,
+    "fields": {
+        "employee": 17,
+        "contractor": null,
+        "training_module": 2,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-14",
+        "trainer_company_ID": "0851618",
+        "trainer_name": "Chris",
+        "trainer_surname": "Mamabolo",
+        "hours_of_training": 16,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T10:25:40.474Z",
+        "updated_at": "2026-05-13T10:25:40.474Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 45,
+    "fields": {
+        "employee": 18,
+        "contractor": null,
+        "training_module": 0,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-20",
+        "trainer_company_ID": "0856123",
+        "trainer_name": "Nathasha",
+        "trainer_surname": "Mthembu",
+        "hours_of_training": 24,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:15:54.719Z",
+        "updated_at": "2026-05-13T15:15:54.719Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 46,
+    "fields": {
+        "employee": 18,
+        "contractor": null,
+        "training_module": 1,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-20",
+        "trainer_company_ID": "0856123",
+        "trainer_name": "Nathasha",
+        "trainer_surname": "Mthembu",
+        "hours_of_training": 24,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:15:54.725Z",
+        "updated_at": "2026-05-13T15:15:54.725Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 47,
+    "fields": {
+        "employee": 18,
+        "contractor": null,
+        "training_module": 2,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-20",
+        "trainer_company_ID": "0856123",
+        "trainer_name": "Nathasha",
+        "trainer_surname": "Mthembu",
+        "hours_of_training": 24,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:15:54.727Z",
+        "updated_at": "2026-05-13T15:15:54.727Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 48,
+    "fields": {
+        "employee": 19,
+        "contractor": null,
+        "training_module": 0,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-27",
+        "trainer_company_ID": "0856762",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Bash",
+        "hours_of_training": 60,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:21:53.022Z",
+        "updated_at": "2026-05-13T15:21:53.022Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 49,
+    "fields": {
+        "employee": 19,
+        "contractor": null,
+        "training_module": 2,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-27",
+        "trainer_company_ID": "0856762",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Bash",
+        "hours_of_training": 60,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:21:53.027Z",
+        "updated_at": "2026-05-13T15:21:53.027Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 50,
+    "fields": {
+        "employee": 19,
+        "contractor": null,
+        "training_module": 4,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-27",
+        "trainer_company_ID": "0856762",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Bash",
+        "hours_of_training": 60,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:21:53.029Z",
+        "updated_at": "2026-05-13T15:21:53.029Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 51,
+    "fields": {
+        "employee": 19,
+        "contractor": null,
+        "training_module": 5,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-27",
+        "trainer_company_ID": "0856762",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Bash",
+        "hours_of_training": 60,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:21:53.032Z",
+        "updated_at": "2026-05-13T15:21:53.032Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 52,
+    "fields": {
+        "employee": 19,
+        "contractor": null,
+        "training_module": 6,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-27",
+        "trainer_company_ID": "0856762",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Bash",
+        "hours_of_training": 60,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:21:53.034Z",
+        "updated_at": "2026-05-13T15:21:53.034Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 53,
+    "fields": {
+        "employee": 19,
+        "contractor": null,
+        "training_module": 7,
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-27",
+        "trainer_company_ID": "0856762",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Bash",
+        "hours_of_training": 60,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-13T15:21:53.036Z",
+        "updated_at": "2026-05-13T15:21:53.036Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 54,
+    "fields": {
+        "employee": null,
+        "contractor": 5,
+        "training_module": 0,
+        "start_date": "2026-05-14",
+        "end_date": "2026-05-14",
+        "trainer_company_ID": "0983636",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 8,
+        "captured_by": [
+            "MMoloi"
+        ],
+        "created_at": "2026-05-14T11:25:09.350Z",
+        "updated_at": "2026-05-14T11:25:09.350Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 55,
+    "fields": {
+        "employee": null,
+        "contractor": 6,
+        "training_module": 0,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-25",
+        "trainer_company_ID": "0852332",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:39:28.051Z",
+        "updated_at": "2026-05-24T06:39:28.051Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 56,
+    "fields": {
+        "employee": null,
+        "contractor": 6,
+        "training_module": 1,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-25",
+        "trainer_company_ID": "0852332",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:39:28.058Z",
+        "updated_at": "2026-05-24T06:39:28.058Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 57,
+    "fields": {
+        "employee": null,
+        "contractor": 6,
+        "training_module": 2,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-25",
+        "trainer_company_ID": "0852332",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:39:28.061Z",
+        "updated_at": "2026-05-24T06:39:28.061Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 58,
+    "fields": {
+        "employee": null,
+        "contractor": 6,
+        "training_module": 5,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-25",
+        "trainer_company_ID": "0852332",
+        "trainer_name": "Malebo",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:39:28.063Z",
+        "updated_at": "2026-05-24T06:39:28.063Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 59,
+    "fields": {
+        "employee": null,
+        "contractor": 7,
+        "training_module": 0,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-31",
+        "trainer_company_ID": "0835352",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:41:18.438Z",
+        "updated_at": "2026-05-24T06:41:18.438Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 60,
+    "fields": {
+        "employee": null,
+        "contractor": 7,
+        "training_module": 2,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-31",
+        "trainer_company_ID": "0835352",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:41:18.444Z",
+        "updated_at": "2026-05-24T06:41:18.444Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 61,
+    "fields": {
+        "employee": null,
+        "contractor": 7,
+        "training_module": 10,
+        "start_date": "2026-05-17",
+        "end_date": "2026-05-31",
+        "trainer_company_ID": "0835352",
+        "trainer_name": "Bruno",
+        "trainer_surname": "Mars",
+        "hours_of_training": 40,
+        "captured_by": [
+            "ThatoMoliko"
+        ],
+        "created_at": "2026-05-24T06:41:18.447Z",
+        "updated_at": "2026-05-24T06:41:18.447Z"
+    }
+},
+{
+    "model": "database_models.trainingmodule",
+    "pk": 64,
+    "fields": {
+        "employee": 23,
+        "contractor": null,
+        "training_module": 0,
+        "start_date": "2026-07-11",
+        "end_date": "2026-07-11",
+        "trainer_company_ID": "0237475",
+        "trainer_name": "Lindi",
+        "trainer_surname": "Sbeko",
+        "hours_of_training": 8,
+        "captured_by": [
+            "TDlamini"
+        ],
+        "created_at": "2026-07-11T10:44:38.956Z",
+        "updated_at": "2026-07-11T10:44:38.956Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-05-04T06:57:52.718Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "trainingmodule"
+        ],
+        "object_id": "2",
+        "object_repr": "Bongi Dlamini - 5 S Workshop",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-05-05T06:38:57.219Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "registrations",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "Mpho Moloi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-05-05T06:39:47.672Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "registrations",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Thato Moliko",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Company ID\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-05-07T05:41:04.557Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "trainingmodule"
+        ],
+        "object_id": "3",
+        "object_repr": "Bongi Dlamini - FPS Training",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hours of training\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-05-07T05:41:16.772Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "trainingmodule"
+        ],
+        "object_id": "1",
+        "object_repr": "Bongi Dlamini - Induction Training",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hours of training\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-05-07T05:41:39.963Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "trainingmodule"
+        ],
+        "object_id": "4",
+        "object_repr": "Bongi Dlamini - Leadership Training",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hours of training\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-05-07T05:41:52.964Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "trainingmodule"
+        ],
+        "object_id": "5",
+        "object_repr": "Bongi Dlamini - SPC CHarts Training",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Hours of training\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-05-07T09:56:18.336Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "10",
+        "object_repr": "Thando Her",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-05-07T10:20:48.162Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "10",
+        "object_repr": "Thando Her",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-05-07T12:53:38.394Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "11",
+        "object_repr": "Lindiwe Gaza",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-05-13T09:44:19.316Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "contractor"
+        ],
+        "object_id": "4",
+        "object_repr": "Duma Nkosi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-05-13T09:44:19.317Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "contractor"
+        ],
+        "object_id": "3",
+        "object_repr": "Stanley Madlanga",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-05-13T09:44:19.317Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "contractor"
+        ],
+        "object_id": "2",
+        "object_repr": "Katleho Mabena",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-05-13T09:44:19.317Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "contractor"
+        ],
+        "object_id": "1",
+        "object_repr": "Nkosana Kwakwa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.042Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "13",
+        "object_repr": "Simon Ngwenya",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.042Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "12",
+        "object_repr": "Dometrius Daries",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.042Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "9",
+        "object_repr": "Elias Dlomo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.042Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "8",
+        "object_repr": "Elias Dlomo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.042Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "7",
+        "object_repr": "Nthokozo Majozi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.043Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "6",
+        "object_repr": "Lindi Maseko",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.043Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "5",
+        "object_repr": "Vuyo Dlomo",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.043Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "4",
+        "object_repr": "Lindi Ndlovu",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.043Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "3",
+        "object_repr": "Lerato Mmane",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.043Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "2",
+        "object_repr": "Simon Moloi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-05-13T09:44:32.043Z",
+        "user": [
+            "MMoloi"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "1",
+        "object_repr": "Bongi Dlamini",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-07-10T10:28:30.137Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "registrations",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "Testing Testing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-07-10T10:39:41.059Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "registrations",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "Testing Testing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-07-11T10:41:20.976Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "22",
+        "object_repr": "him him",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-07-11T10:41:33.803Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "21",
+        "object_repr": "Testing Testing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2026-07-11T10:41:33.803Z",
+        "user": [
+            "ThatoMoliko"
+        ],
+        "content_type": [
+            "database_models",
+            "employee"
+        ],
+        "object_id": "20",
+        "object_repr": "Testing Testing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
