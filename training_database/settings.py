@@ -32,7 +32,7 @@ DEBUG = env.bool('DEBUG', default= False)
 
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['trainings-database.onrender.com']
 
 
 # Application definition
