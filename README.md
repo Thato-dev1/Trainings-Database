@@ -27,12 +27,12 @@ Department managers are able to:
 
 1. **Clone the repository** 
    
-   Make sure you're on a terminal like Git Bash or cmd.
+   Make sure you're on a terminal like Git Bash or cmd.\
    git clone
    
 3. **Create and activate a virtual environment** 
    
-   Python -m venv env
+   Python -m venv env\
    source env/Scripts/activate
    
 5. **Install dependencies** 
