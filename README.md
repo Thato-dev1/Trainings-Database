@@ -21,7 +21,7 @@ Department managers are able to:
 ** Application Hosting:** Render.com
 ** Database Hosting:** Neon.tech
 
-**Note:** Some content and system functionality may be changed due to company policy and data privacy restrictions.
+**Note:** Some content and system functionality may be changed due to company policy and data privacy restrictions. Website may take a few seconds to load due to server hibernation.
 
 ## How To Run Locally
 
@@ -47,4 +47,4 @@ Department managers are able to:
    python manage.py runserver
    
 
-**Note: ** Some content and system functionality may be changed due to company policy and data privacy restrictions.
+**Note: ** Some content and system functionality may be changed due to company policy and data privacy restrictions. Website may take a few seconds to load due to server hibernation.
