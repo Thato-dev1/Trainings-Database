@@ -35,7 +35,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['trainings-database.onrender.com']
 
 
-# Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',

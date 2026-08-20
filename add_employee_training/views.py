@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from database_models.models import Employee, Contractor, TrainingModule
 from django.contrib.auth.decorators import login_required
+from django.contrib import messages
 
 
 
@@ -38,6 +39,7 @@ def add_employee(request):
                 hours_of_training = request.POST.get('hours_of_training'),
                 captured_by = request.user
                 )
+        messages.success(request, f'{first_name} {last_name} successfully added to database!')
         return redirect('add_employee')
     else:
         return render(request, 'add_employee_training.html')
@@ -73,6 +75,7 @@ def add_contractor(request):
                 hours_of_training = request.POST.get('hours_of_training'),
                 captured_by = request.user
             )
+        messages.success(request, f'{first_name} {last_name} successfully added to database!')
         return redirect('add_contractor')
     else:
         return render(request, 'add_employee_training.html')
